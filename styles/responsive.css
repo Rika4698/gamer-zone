@@ -1,0 +1,224 @@
+/* For Mobile Device (small screen) */
+@media screen and (max-width: 576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-left {
+        margin-top: 2rem;
+    }
+
+    .nav-right ul {
+        margin: 2rem auto;
+        ;
+        flex-direction: column;
+    }
+
+    .nav-right ul li {
+        margin: 1rem;
+    }
+
+    .nav-right ul li a {
+        font-weight: 400;
+    }
+
+    /* banner */
+    .banner {
+        background-image: none;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-container .banner-content {
+        background-image: url("../images/Group\ 14.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 85%;
+    }
+
+    .banner-container .banner-content>div {
+        width: 70%;
+        margin: 1rem auto;
+    }
+
+    .banner-container .banner-photo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .banner-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .banner-content h1 {
+        font-size: 3rem;
+    }
+
+    .banner-content .p1,
+    .banner-content .p2,
+    .banner-content .p3 {
+        font-size: 1rem;
+    }
+
+    .banner-content button {
+        font-size: .8rem;
+        padding: 1rem 1rem;
+    }
+
+    .banner-content-btn-container {
+        margin-top: 1rem;
+    }
+
+    /*  gamer */
+    .gamer-container {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1.3rem auto;
+    }
+
+    .gamer-content {
+        text-align: center;
+    }
+
+    .gamer-container>div {
+        width: 80%;
+        margin: auto;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .online-games-container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .play-game-container {
+        flex-direction: column;
+    }
+
+    .play-left {
+        text-align: center;
+    }
+
+    .img1 {
+        width: 260px;
+    }
+
+    .img-container {
+        margin: 2rem;
+    }
+
+    .careers-container {
+        flex-direction: column-reverse;
+        padding-bottom: 2rem;
+    }
+
+    .careers-container .item {
+        width: 80%;
+    }
+
+    .career-content-container {
+        font-size: 12px;
+    }
+
+    .career-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .btn-tertiary {
+        font-size: 1rem;
+        padding: .5rem 1.3rem;
+    }
+
+    .play-left {
+        text-align: center;
+    }
+
+    .play-left h2 {
+        font-size: 30px;
+        width: 250px;
+    }
+
+    .play-left p {
+        margin-bottom: 1rem;
+        width: 250px;
+    }
+
+    .gamer-content div h2 {
+        font-size: 1.6rem;
+    }
+
+    .gamer-content div p {
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        padding: .5rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .online-games-container h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .online-games-container .online-games-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .play-left {
+        align-items: center;
+    }
+
+    .card {
+        margin: .5rem;
+    }
+
+
+    .game-types-container {
+        width: 90%;
+        margin: 3rem auto;
+        gap:10px;
+    }
+
+    .game-types-container .card {
+        max-width: 9rem;
+        gap: 10px;
+    }
+
+    .game-types .card {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+        width: 110px;
+        height: auto;
+    }
+
+
+    .games-types .card:hover {
+        border: none;
+        gap: 0;
+        border: 0px solid transparent;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+
+    .game-types-container .card p {
+        font-size: 8px;
+    }
+
+    .game-types-container .card img {
+        width: 30px;
+        height: 30px;
+        margin-right: 0;
+    }
+
+
+
+}
