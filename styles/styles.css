@@ -491,3 +491,69 @@
 .career-content-container p {
     margin-bottom: .3rem;
 }
+
+
+/* footer section */
+footer {
+    height: fit-content;
+    background-color: #010101;
+    color: white;
+    margin-top: 5rem;
+}
+
+.footer-container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 4rem;
+    text-align: center;
+}
+
+.footer-container .nav-left {
+    justify-content: center;
+}
+
+.footer-link ul {
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: white;
+    margin: 1.5rem;
+}
+
+.footer-social {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-social i {
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.footer-social i:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-policy {
+    margin: 2rem auto;
+    ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-policy a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
