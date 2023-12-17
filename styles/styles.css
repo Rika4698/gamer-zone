@@ -343,3 +343,97 @@
     display: inline-block;
 }
    
+/* play game section */
+.play-game {
+    max-width: 1400px;
+    margin: auto;
+    height: fit-content;
+}
+
+.play-game-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.play-left {
+    text-align: right;
+}
+
+.play-left h2 {
+    font-size: 2.5rem;
+    width: 300px;
+}
+
+.play-left h2 span {
+    color: #F948B2;
+}
+
+.play-left p {
+    width: 310px;
+}
+
+.img-container {
+    text-align: center;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.img1 {
+    width: 80%;
+}
+
+.img2 {
+    width: 50%;
+}
+
+.img-container .img2 {
+    position: absolute;
+    bottom: -10%;
+    left: -15%;
+}
+
+
+/* types of game */
+.game-types {
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.game-types .card img {
+    width: 50px;
+    height: 50px;
+}
+
+.game-types .card {
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+    width: 260px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #FFF;
+    gap: 10px;
+    border: 1px solid transparent;
+    padding: 0.5rem;
+    margin: .3rem;
+}
+
+.game-types-container {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.game-types .card:hover {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #FF42A5;
+    border-radius: 3rem;
+    cursor: pointer;
+}
